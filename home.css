@@ -1052,7 +1052,7 @@ main, summary, details {
     height: 540px;
     border-radius: 30px;
     display: block;
-    grid-column: span 2;
+    grid-column: span 1;
     overflow: hidden;
 }
 
@@ -1130,6 +1130,35 @@ main, summary, details {
     background-image: url('Images/Home/Uniform/arc-uniform-largetall_2x.png');
 }
 
+.small-module-content .event-poster {
+    width: 1262px;
+    height: 580px;
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    background-image: url('Images/Home/Uniform/agm-poster-largetall_2x.jpg');
+}
+
+.small-module-content button {
+    cursor: pointer;
+    text-align: center;
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "Helvetica","Arial",sans-serif;
+    min-width: 28px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 18px;
+    background: #f9d2a9;
+    color: #fff;
+    border: none;
+    margin-top: 5px;
+    pointer-events: auto;
+}
+
 @media only screen and (max-width: 1068px) {
 	.small-module-content .headline {
         margin-top: 42px;
@@ -1154,6 +1183,13 @@ main, summary, details {
         background-repeat: no-repeat;
         background-image: url('Images/Home/Uniform/arc-uniform-medium_2x.png');
     }
+    .small-module-content .event-poster {
+        width: 516px;
+        height: 490px;
+        background-size: 516px 490px;
+        background-repeat: no-repeat;
+        background-image: url('Images/Home/Uniform/agm-poster-medium_2x.jpg');
+    }
 }
 
 @media only screen and (max-width: 734px) {
@@ -1171,6 +1207,13 @@ main, summary, details {
         background-size: 734px 548px;
         background-repeat: no-repeat;
         background-image: url('Images/Home/Uniform/arc-uniform-small_2x.png');
+    }
+    .small-module-content .event-poster {
+        width: 734px;
+        height: 548px;
+        background-size: 734px 548px;
+        background-repeat: no-repeat;
+        background-image: url('Images/Home/Uniform/agm-poster-small_2x.jpg');
     }
 }
 
